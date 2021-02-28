@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "md2xliff": "^2.0.0",
+    "mdast": "^2.3.2",
+    "standard": "^16.0.3",
+    "uuid": "^8.3.2",
+    "walk-ast": "0.0.2"
+  },
+  "scripts": {
+    "lint": "standard --fix"
+  }
+}
