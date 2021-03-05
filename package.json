@@ -2,6 +2,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "dotenv": "^8.2.0",
+    "hubdown": "^2.6.0",
     "md2xliff": "^2.0.0",
     "mdast": "^2.3.2",
     "standard": "^16.0.3",

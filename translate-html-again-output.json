@@ -1,0 +1,66 @@
+[
+    {
+        "translations": [
+            {
+                "text": "<h1 id=\"hello-world\"><a href=\"#hello-world\">Olá, mundo</a></h1>\n<p>Isto é um <strong>teste.</strong></p>\n<p>O Riegelmann Boardwalk (também conhecido como Coney Island Boardwalk) é um calçadão de 4,3 km de comprimento ao longo da costa sul da península de Coney Island, no bairro de Nova York, no Brooklyn, adjacente ao Oceano Atlântico. Inaugurado em 1923, tornou-se um ícone de Coney Island, com aparições nas artes visuais, música e cinema.</p>\n<p>Este é um <a href=\"https://example.com\">link</a></p>\n<pre><code class=\"hljs language-js\"><span class=\"hljs-comment\">// here is a block of code</span>\nalert(<span class=\"hljs-string\">'hello world'</span>)\n</code></pre>\n<p>Frutas</p>\n<ul>\n<li>Apple</li>\n<li>Banana</li>\n<li>Cereja</li>\n</ul>",
+                "to": "pt",
+                "sentLen": {
+                    "srcSentLen": [
+                        748
+                    ],
+                    "transSentLen": [
+                        739
+                    ]
+                }
+            },
+            {
+                "text": "<h1 id=\"hello-world\"><a href=\"#hello-world\">Hola mundo</a></h1>\n<p>Esta es una <strong>prueba.</strong></p>\n<p>El paseo marítimo de Riegelmann (también conocido como el paseo marítimo de Coney Island) es un paseo marítimo de 2,7 millas de largo (4,3 km) a lo largo de la costa sur de la península de Coney Island en el distrito neoyorquino de Brooklyn, adyacente al Océano Atlántico. Inaugurado en 1923, se ha convertido en un icono de Coney Island, con apariciones en las artes visuales, la música y el cine.</p>\n<p>Este es un <a href=\"https://example.com\">enlace</a></p>\n<pre><code class=\"hljs language-js\"><span class=\"hljs-comment\">// here is a block of code</span>\nalert(<span class=\"hljs-string\">'hello world'</span>)\n</code></pre>\n<p>Frutas</p>\n<ul>\n<li>manzana</li>\n<li>Plátano</li>\n<li>Cereza</li>\n</ul>",
+                "to": "es",
+                "sentLen": {
+                    "srcSentLen": [
+                        748
+                    ],
+                    "transSentLen": [
+                        812
+                    ]
+                }
+            },
+            {
+                "text": "<h1 id=\"hello-world\"><a href=\"#hello-world\">Vipi dunia</a></h1>\n<p>Huu ni <strong>mtihani</strong>.</p>\n<p>Bodi ya Riegelmann (pia inajulikana kama Bodi ya Kisiwa cha Coney) ni bodi ya maili 2.7 (kilomita 4.3) kando ya pwani ya kusini ya rasi ya Kisiwa cha Coney katika Mji wa New York ulionunuliwa wa Brooklyn, karibu na Bahari ya Atlantiki. Ilifunguliwa katika 1923, imekuwa icon ya Coney Island, na kuonekana katika sanaa ya kuona, muziki, na filamu.</p>\n<p>Hiki ni <a href=\"https://example.com\">kiungo</a></p>\n<pre><code class=\"hljs language-js\"><span class=\"hljs-comment\">// here is a block of code</span>\nalert(<span class=\"hljs-string\">'hello world'</span>)\n</code></pre>\n<p>Matunda</p>\n<ul>\n<li>Apple</li>\n<li>Ndizi</li>\n<li>Cherry</li>\n</ul>",
+                "to": "sw",
+                "sentLen": {
+                    "srcSentLen": [
+                        748
+                    ],
+                    "transSentLen": [
+                        750
+                    ]
+                }
+            },
+            {
+                "text": "<h1 id=\"hello-world\"><a href=\"#hello-world\">ハローワールド</a></h1>\n<p>これは <strong>テスト</strong>です。</p>\n<p>リーゲルマンボードウォーク(コニーアイランドボードウォークとも呼ばれる)は、大西洋に隣接するブルックリンのニューヨーク市自治区のコニーアイランド半島の南岸に沿って長さ2.7マイル(4.3km)の遊歩道です。1923年にオープンし、コニーアイランドのアイコンとなり、視覚芸術、音楽、映画に出演しています。</p>\n<p>これは<a href=\"https://example.com\">リンク</a>です</p>\n<pre><code class=\"hljs language-js\"><span class=\"hljs-comment\">// here is a block of code</span>\nalert(<span class=\"hljs-string\">'hello world'</span>)\n</code></pre>\n<p>果物</p>\n<ul>\n<li>アップル</li>\n<li>バナナ</li>\n<li>チェリー</li>\n</ul>",
+                "to": "ja",
+                "sentLen": {
+                    "srcSentLen": [
+                        748
+                    ],
+                    "transSentLen": [
+                        531
+                    ]
+                }
+            },
+            {
+                "text": "<h1 id=\"hello-world\"><a href=\"#hello-world\">世界您好</a></h1>\n<p>这是一个 <strong>测试</strong>。</p>\n<p>里格尔曼木板人行道（也称为科尼岛木板人行道）是沿着纽约市布鲁克林区科尼岛半岛南岸的一条2.7英里长（4.3公里）的木板人行道，毗邻大西洋。它于1923年开业，现已成为科尼岛的一个标志性建筑，在视觉艺术、音乐和电影领域都有亮相。</p>\n<p>这是一个 <a href=\"https://example.com\">链接</a></p>\n<pre><code class=\"hljs language-js\"><span class=\"hljs-comment\">// here is a block of code</span>\nalert(<span class=\"hljs-string\">'hello world'</span>)\n</code></pre>\n<p>水果</p>\n<ul>\n<li>苹果</li>\n<li>香蕉</li>\n<li>樱桃</li>\n</ul>",
+                "to": "zh-Hans",
+                "sentLen": {
+                    "srcSentLen": [
+                        748
+                    ],
+                    "transSentLen": [
+                        482
+                    ]
+                }
+            }
+        ]
+    }
+]
