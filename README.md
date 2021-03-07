@@ -1,18 +1,18 @@
-# Hello World
+# HTML translator
 
-This is a **test**.
+A Node.js web service that wraps the [Microsoft Translator API].
 
-The Riegelmann Boardwalk (also known as the Coney Island Boardwalk) is a 2.7-mile-long (4.3 km) boardwalk along the southern shore of the Coney Island peninsula in the New York City borough of Brooklyn, adjacent to the Atlantic Ocean. Opened in 1923, it has become an icon of Coney Island, with appearances in the visual arts, music, and film.
+## Development
 
-This is a [link](https://example.com)
-
-```js
-// here is a block of code
-alert('hello world')
+```sh
+npm start
+npm run dev
 ```
 
-Fruits
+This starts a server on localhost:4000
 
-- apple
-- banana
-- cherry
+```sh
+curl -s "http://localhost:4000/translate?text=hello,%20world" | jq
+```
+
+[Microsoft Translator API]: https://docs.microsoft.com/en-us/azure/cognitive-services/translator/quickstart-translator?tabs=nodejs
