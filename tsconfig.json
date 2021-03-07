@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es2017",
+    "strict": true,
+    "declaration": true,
+    "resolveJsonModule": true,
+    "lib": [
+      "es2018",
+      "es2019",
+      "es2020"
+    ],
+    "allowJs": true,
+    "checkJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "newLine": "lf",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "include": [
+    "*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

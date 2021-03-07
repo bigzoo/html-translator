@@ -39,7 +39,5 @@ async function main () {
   }).then(function (response) {
     console.log(JSON.stringify(response.data, null, 4))
   })
-  
-
 }
-main() 
+main()
