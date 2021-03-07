@@ -1,11 +1,14 @@
 import * as dotenv from 'dotenv'
 import * as express from 'express'
+import * as cors from 'cors'
 import { translate } from './translate'
+
 
 dotenv.config()
 
 const port = process.env.PORT ?? 4000
 const app = express()
+app.use(cors())
 
 app.get('/', async (_req, res) => {
   return res.redirect('https://github.com/zeke/html-translator')
