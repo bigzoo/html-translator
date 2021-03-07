@@ -8,7 +8,7 @@ const port = process.env.PORT ?? 4000
 const app = express()
 
 app.get('/', async (_req, res) => {
-  return res.redirect('https://github.com/zeke/markdown-localization-test')
+  return res.redirect('https://github.com/zeke/html-translator')
 })
 
 app.get('/translate', async (req, res) => {
