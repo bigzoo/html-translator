@@ -8,7 +8,7 @@ const subscriptionKey = process.env.MS_TRANSLATOR_KEY_1
 const endpoint = 'https://api.cognitive.microsofttranslator.com'
 const location = 'westus2'
 
-async function translate (input: String) {
+async function translate (text: String, languages: Array<string>) {
   try {
     const response = await axios({
       baseURL: endpoint,
@@ -23,12 +23,12 @@ async function translate (input: String) {
       params: {
         'api-version': '3.0',
         from: 'en',
-        to: ['pt', 'it', 'sw'],
+        to: languages ?? ['pt', 'it', 'sw'],
         textType: 'html',
         includeSentenceLength: true
       },
       data: [{
-        text: input
+        text
       }],
       responseType: 'json'
     })
