@@ -9,9 +9,16 @@ dotenv.config()
 const port = process.env.PORT ?? 4000
 const app = express()
 app.use(cors())
+app.use(express.json())
 
 app.get('/', async (_req, res) => {
   return res.redirect('https://github.com/zeke/html-translator')
+})
+
+app.post('/translate', async (req, res) => {
+  const text: string = req.body.text as string
+  const translation = await translate(text)
+  return res.json(translation)
 })
 
 app.get('/translate', async (req, res) => {
