@@ -17,13 +17,8 @@ app.get('/', async (_req, res) => {
 
 app.post('/translate', async (req, res) => {
   const text: string = req.body.text as string
-  const translation = await translate(text)
-  return res.json(translation)
-})
-
-app.get('/translate', async (req, res) => {
-  const text: string = req.query.text as string
-  const translation = await translate(text)
+  const languages: Array<string> = req.body.languages as Array<string>
+  const translation = await translate(text, languages)
   return res.json(translation)
 })
 
