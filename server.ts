@@ -19,6 +19,7 @@ app.post('/translate', async (req, res) => {
   const text: string = req.body.text as string
   const languages: Array<string> = req.body.languages as Array<string>
   const translation = await translate(text, languages)
+  console.log(JSON.stringify(translation, null, 2))
   return res.json(translation)
 })
 
