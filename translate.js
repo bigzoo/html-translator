@@ -1,6 +1,4 @@
-import * as dotenv from 'dotenv'
-
-dotenv.config()
+require('dotenv').config()
 
 const axios = require('axios').default
 const uuid = require('uuid')
@@ -8,7 +6,7 @@ const subscriptionKey = process.env.MS_TRANSLATOR_KEY_1
 const endpoint = 'https://api.cognitive.microsofttranslator.com'
 const location = 'westus2'
 
-async function translate (text: String, languages: Array<string>) {
+async function translate (text, languages) {
   try {
     const response = await axios({
       baseURL: endpoint,
@@ -39,4 +37,4 @@ async function translate (text: String, languages: Array<string>) {
   }
 }
 
-export { translate }
+module.exports = { translate }
