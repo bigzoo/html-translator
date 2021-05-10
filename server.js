@@ -2,7 +2,7 @@ require('dotenv').config()
 
 const express = require('express')
 const cors = require('cors')
-const { translate} = require('./translate')
+const { translate } = require('./lib/translate')
 const port = Number(process.env.PORT) || 4000
 const app = express()
 app.use(cors())

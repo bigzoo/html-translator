@@ -3,7 +3,7 @@
     "dev": "nodemon --watch '**/*.js' server.js",
     "lint": "standard --fix",
     "start": "node server.js",
-    "test": "standard"
+    "test": "npm run lint && jest"
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -14,5 +14,14 @@
     "nodemon": "^2.0.7",
     "standard": "^16.0.3",
     "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nock": "^13.0.11"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
   }
 }
